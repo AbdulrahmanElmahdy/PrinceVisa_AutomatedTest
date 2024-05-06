@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="42.369" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Selection of passport holder, destination, and purpose of travel" name="User apply for visa" time="42.264">
+<system-out><![CDATA[
+Given User select passport holder country...................................passed
+And User select the destination.............................................passed
+Then User select the purpose of travel......................................passed
+And Click on set to go......................................................passed
+When Page displayed.........................................................passed
+And Click on order now......................................................passed
+Then Insert personal info...................................................passed
+And Select payment option...................................................passed
+When Click on revision and payment..........................................passed
+And Select visa type........................................................passed
+Then Insert visa details....................................................passed
+And Click submit request....................................................passed
+And Click pay now...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
